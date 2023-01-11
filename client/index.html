@@ -34,6 +34,26 @@
     </header>
 
     <main id="root" class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <section id="blogPostsContainer" class="blog-posts-container"></section>
+                <section class="blog-post-form">
+                    <form id="blogPostForm" name="blogPostForm">
+                        <section class="mb-2">
+                            <label class="form-label" for="title">Titel</label>
+                            <input type="text" id="title" name="title" class="form-control" />
+                        </section>
+                        <section class="mb-2">
+                            <label class="block pr-5 mb-2 text-xl" for="description">Text</label>
+                            <textarea rows="5" id="text" name="text" class="form-control"></textarea>
+                        </section>
+                        <button name="submitBlogPostForm" class="btn btn-primary" type="submit">
+                            Skapa
+                        </button>
+                    </form>
+                </section>
+            </div>
+        </div>
 
     </main>
 

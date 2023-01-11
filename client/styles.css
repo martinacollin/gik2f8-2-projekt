@@ -11,7 +11,7 @@ header {
     background-color: #6c757d;
     background-size: cover;
     background-attachment: scroll;
-    background-image: linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0.35)),  url('header_background.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url('header_background.jpg');
     padding-top: 15vh;
     padding-bottom: 15vh;
 }
@@ -31,4 +31,13 @@ header {
 .blog-sub-title {
     font-size: 2rem;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.blog-posts-container {
+    margin-bottom: 3rem;
+}
+
+.blog-post-form {
+    padding-top: 2rem;
+    margin-bottom: 5rem;
 }
